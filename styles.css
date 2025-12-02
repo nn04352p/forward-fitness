@@ -251,3 +251,23 @@ footer {
   nav, footer { display: none; }
   #container { border: none; box-shadow: none; }
 }
+/* ===== Skip Link Styling ===== */
+.skip-link {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: #111;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 6px;
+  text-decoration: none;
+  transform: translateY(-120%);
+  transition: transform 0.2s ease-out;
+  z-index: 9999;
+}
+
+.skip-link:focus,
+.skip-link:active {
+  transform: translateY(0);
+  outline: 3px solid #fff;
+}
