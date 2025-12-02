@@ -3,29 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ===== SEO Meta Description ===== -->
+  <meta name="description" content="Forward Fitness Club helps you stay strong, motivated, and healthy with expert trainers, personalized programs, and wellness tips.">
+
+  <!-- ===== Open Graph / Social Sharing ===== -->
+  <meta property="og:title" content="Forward Fitness Club">
+  <meta property="og:description" content="Stay strong, motivated, and healthy with Forward Fitness Club. Explore our training programs, nutrition tips, and facility tour.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yourwebsite.com">
+  <meta property="og:image" content="https://yourwebsite.com/forward-fitness-logo.png">
+
+  <!-- ===== Twitter Cards ===== -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Forward Fitness Club">
+  <meta name="twitter:description" content="Stay motivated and healthy with Forward Fitness Club.">
+  <meta name="twitter:image" content="https://yourwebsite.com/forward-fitness-logo.png">
+
   <title>Forward Fitness Club | Home</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+
+  <!-- ===== Skip Link for Accessibility ===== -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
   <div id="container">
     <header>
       <img src="forward-fitness-logo.png" alt="Forward Fitness Club logo" height="220" width="297">
       <h1>Forward Fitness Club</h1>
     </header>
 
-   <nav>
-  <ul>
-    <li><a href="index.html" class="active">Home</a></li>
-    <li><a href="about.html">About Us</a></li>
-    <li><a href="nutrition.html">Nutrition</a></li>
-    <li><a href="contact.html">Contact</a></li>
-    <li><a href="media.html">Media</a></li>
-  </ul>
-</nav>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="nutrition.html">Nutrition</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="media.html">Media</a></li>
+      </ul>
+    </nav>
 
-    <main>
+    <main id="main-content" tabindex="-1">
       <h2>Welcome to Forward Fitness Club!</h2>
       <p>At Forward Fitness Club, we help you stay strong, motivated, and healthy. Our trainers and programs are designed to fit your unique goals, whether it’s strength training, cardio, or overall wellness.</p>
+
       <img src="people-with-weights.jpg" alt="People exercising with weights" class="main-image">
 
       <!-- Audio Section -->
@@ -39,10 +62,10 @@
         </audio>
       </section>
 
-      <!-- Video Section with Descriptions Track -->
+      <!-- Video Section -->
       <section class="media-section">
         <h2>Forward Fitness Club Tour</h2>
-        <p>Watch a short video tour of our facility and hear descriptions of what’s happening on screen.</p>
+        <p>Watch a short video tour of our facility with helpful audio descriptions.</p>
         <video controls>
           <source src="media/ffc_video.mp4" type="video/mp4">
           <source src="media/ffc_video.webm" type="video/webm">
@@ -50,11 +73,13 @@
           Your browser does not support the video tag.
         </video>
       </section>
+
     </main>
 
     <footer>
       <p>&copy; 2025 Forward Fitness Club</p>
     </footer>
+
   </div>
 </body>
 </html>
